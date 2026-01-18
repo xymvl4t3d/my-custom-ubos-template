@@ -10,12 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/43/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 install -y tmux flatpak
-flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-
-flatpak install -y --noninteractive flathub \
-  com.visualstudio.code \
-  com.rustdesk.RustDesk
+dnf5 install -y tmux
 
 # Use a COPR Example:
 #
