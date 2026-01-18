@@ -14,7 +14,7 @@ dnf5 install -y tmux flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 flatpak install -y --noninteractive flathub \
-  com.microsoft.VSCode \
+  com.visualstudio.code \
   org.rustdesk.RustDesk
 
 # Use a COPR Example:
