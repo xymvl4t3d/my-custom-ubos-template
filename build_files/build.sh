@@ -15,7 +15,7 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 
 flatpak install -y --noninteractive flathub \
   com.visualstudio.code \
-  org.rustdesk.RustDesk
+  com.rustdesk.RustDesk
 
 # Use a COPR Example:
 #
